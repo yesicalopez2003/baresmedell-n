@@ -21,4 +21,10 @@ boton.addEventListener("click", function(evento){
         cargoEmpleado: cargoIngresado,
         experienciaEmpleado: experienciaIngresada
     })
+
+    Swal.fire({
+        title: "Buen trabajo!",
+        text: "Empleado registrado con éxito!",
+        icon: "success"
+    });
 })
